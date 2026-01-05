@@ -49,7 +49,14 @@ export const Portfolio: React.FC = () => {
               <div className="p-6 flex flex-col flex-grow">
                 <div className="flex flex-wrap gap-2 mb-4">
                   {project.tags.map(tag => (
-                    <span key={tag} className="text-[10px] uppercase tracking-wider font-semibold text-neutral-500 border border-neutral-800 px-2 py-1 rounded bg-black/40">
+                    <span 
+                      key={tag} 
+                      className={`text-[10px] uppercase tracking-wider font-semibold px-2 py-1 rounded border ${
+                        tag === 'Destaque' 
+                          ? 'bg-brand-accent/20 text-brand-accent border-brand-accent/30 shadow-[0_0_10px_-3px_rgba(99,102,241,0.4)]' 
+                          : 'text-neutral-500 border-neutral-800 bg-black/40'
+                      }`}
+                    >
                       {tag}
                     </span>
                   ))}

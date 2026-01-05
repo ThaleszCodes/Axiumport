@@ -7,7 +7,7 @@ export const AXIUM_LINKS = {
 };
 
 export const STATS = [
-  { label: "Projetos Entregues", value: "45+" },
+  { label: "Projetos Entregues", value: "48+" },
   { label: "Taxa de Aprovação", value: "98%" },
   { label: "Anos de Experiência", value: "6+" },
   { label: "Faturamento Gerado", value: "R$ 2M+" },
@@ -74,6 +74,33 @@ export const FAQ_ITEMS = [
 ];
 
 export const PROJECTS: Project[] = [
+  {
+    id: 'adsales',
+    name: 'AdSales Performance',
+    description: 'Landing Page de alta conversão focada em captação de leads para gestores de tráfego.',
+    url: 'https://adsales-project.vercel.app/',
+    image: 'https://i.imgur.com/gad1xyv.png',
+    tags: ['Destaque', 'Landing Page', 'Leads'],
+    featured: true
+  },
+  {
+    id: 'nexusfit',
+    name: 'Nexus Fit Studio',
+    description: 'Site para studio fitness focado em agendamento local e apresentação visual.',
+    url: 'https://nexusfit-project.vercel.app/',
+    image: 'https://i.imgur.com/U6GpzZv.png',
+    tags: ['Destaque', 'Local Business', 'Fitness'],
+    featured: true
+  },
+  {
+    id: 'silva-adv',
+    name: 'Silva Advocacia',
+    description: 'Design que transmite autoridade e confiança para escritório jurídico.',
+    url: 'https://silvaadv-project.vercel.app/',
+    image: 'https://i.imgur.com/Nqc2dI3.png',
+    tags: ['Destaque', 'Legal', 'Institucional'],
+    featured: true
+  },
   {
     id: 'axium-web',
     name: 'Axium Web',
